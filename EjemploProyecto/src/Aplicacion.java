@@ -8,7 +8,9 @@ public class Aplicacion {
 		
 		Persona miPersona=new Persona("Pepito Perez",23,"Estudiante","7584632");
 		
+
 		System.out.println("DATOS DEL USUARIO...");
+
 		System.out.println("**********************************************");
 		
 		System.out.println("Nombre: "+miPersona.getNombre());
@@ -16,8 +18,8 @@ public class Aplicacion {
 		System.out.println("Profesion: "+miPersona.getProfesion());
 		System.out.println("Telefono: "+miPersona.getTelefono());
 		
-		System.out.println("Se termina el sistema!!!");
-		
 		System.out.println("**********************************************");
+		
+		System.out.println("Se termina el sistema!!!");
 	}
 }
