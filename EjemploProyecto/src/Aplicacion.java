@@ -1,7 +1,11 @@
+import javax.swing.JOptionPane;
 
 public class Aplicacion {
 
 	public static void main(String[] args) {
+		
+		JOptionPane.showMessageDialog(null, "Se presentará la info de la persona!");
+		
 		Persona miPersona=new Persona("Pepito Perez",23,"Estudiante","7584632");
 		
 		System.out.println("Nombre: "+miPersona.getNombre());
